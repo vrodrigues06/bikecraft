@@ -1,3 +1,7 @@
+.header-bg {
+  background: var(--cor-12);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -63,8 +67,4 @@
     padding: 8px 12px;
     font-size: 14px;
   }
-}
-
-.header-bg {
-  background: var(--cor-11);
 }
