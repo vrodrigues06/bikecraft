@@ -22,6 +22,7 @@
   align-self: end;
   justify-self: end;
   text-align: end;
+  background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 20px right 40px, url(../../img/dec/top-left-p.svg) no-repeat top 0px left -20px;
 }
 
 
@@ -66,4 +67,10 @@
     justify-self: center;
   }
 
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
